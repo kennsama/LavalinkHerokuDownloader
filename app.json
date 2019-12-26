@@ -1,0 +1,19 @@
+{
+
+  "name": "HLavalink - Lavalink on Heroku",
+  "description": "Lavalink installer edited from 'https://github.com/F4stZ4p/HLavalink'",
+  "repository": "https://github.com/LuisFelip3/LavalinkHerokuDownloader",
+  "logo": "https://i.imgur.com/xl2AEx8.png",
+  "keywords": [
+      "heroku", 
+      "lavalink", 
+      "java",
+      "music"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+
+}
