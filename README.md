@@ -2,7 +2,7 @@
 
 **Lavalink** on **Heroku**, in a nutshell
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/F4stZ4p/HLavalink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LuisFelip3/LavalinkHerokuDownloader)
 
 ## If you want to run this:
 
