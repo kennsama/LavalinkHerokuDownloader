@@ -86,9 +86,6 @@ class LavalinkBootstrap:
         print(
             "[INFO] Downloading latest release of Lavalink..."
         )
-        print (
-            self.download_command
-        )
         
         try:
             
