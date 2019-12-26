@@ -19,7 +19,7 @@ class LavalinkBootstrap:
         """
         self._lavalink_version = "3.2.2" if not environ.get('LAVALINK_VERSION') else environ.get('LAVALINK_VERSION')
 
-        self.download_command = "wget https://github.com/Frederikam/Lavalink/releases/download/ " + self._lavalink_version + "/Lavalink.jar"
+        self.download_command = f"wget https://github.com/Frederikam/Lavalink/releases/download/{self._lavalink_version}/Lavalink.jar"
 
         self.replace_port_command = 'sed -i "s|DYNAMICPORT|$PORT|" application.yml'
 
