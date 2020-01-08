@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt && python3 bootstrap.py
+web: python3 bootstrap.py
