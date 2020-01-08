@@ -4,7 +4,6 @@ Credit to diniboy for sed script
 """
 
 from os import system, environ, path, remove
-import requests
 
 
 class LavalinkBootstrap:
