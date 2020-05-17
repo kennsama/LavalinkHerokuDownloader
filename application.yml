@@ -1,12 +1,12 @@
 server:
-  port: DYNAMICPORT
+  port: 80
   address: 0.0.0.0
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: "DYNAMICPASSWORD"
+    password: "whatareyou"
     sources:
       youtube: true
       bandcamp: true
@@ -17,7 +17,7 @@ lavalink:
       http: true
       local: false
     bufferDurationMs: 400
-    youtubePlaylistLoadLimit: 3
+    youtubePlaylistLoadLimit: 6
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
@@ -32,8 +32,8 @@ sentry:
 
 logging:
   file:
-    max-history: 1
-    max-size: 3MB
+    max-history: 30
+    max-size: 1GB
   path: /app/logs/
 
   level:
